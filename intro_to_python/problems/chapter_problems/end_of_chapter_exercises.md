@@ -1,5 +1,5 @@
-#Data_types
-#Exercise 1
+# Data_types
+# Exercise 1
 #
 # 'True' is a string data type
 # False is a bool data type
@@ -7,7 +7,7 @@
 # 1.5 is a float data type
 # [1, 2, 3] is a list data type
 # 2 is an int data type
-# range(5) is as range data type
+# range(5) is a range data type
 # {1, 2, 3} is a set data type
 # None is a None class data type
 # {'foo': 'bar'} is a dict data type with string data types as the key and value
@@ -20,9 +20,70 @@
 # pets = {'Asta': 'dog', 'Butterscotch': 'cat', 'Pudding': 'cat', 'Neptune': 'fish', 'Darwin': 'lizard'}
 #
 #
-#Errors
+# Errors
 # 
 # Exercise 1: None is a NoneType
 # Exercise 2: All good
-# Exerise 3: put a comma after the last value
-:
+# Exercise 3: put a comma after the last value
+# Exercise 4:
+# Exercise 
+
+# Basic Operations
+# Exercise 1 
+# mike = 'Mike' + ' ' + 'Bowser'
+#
+#
+#
+#
+#
+#
+#
+# Exercise 3 
+# print('5' + '10') concatenates 5 + 10. It does convert them to ints and add them.
+
+# Exercise 4 
+# print('1' + '5')
+# 
+# Exercise 5 
+# print(int('5') + int('10'))
+# Exercise 6 
+# Yes, an error will occur. It will return 'IndexError: list index out of range'. There are no indexes for nonexistent values.
+
+# Exercise 6 
+# This evaluates to the bool value False. The strings are not equivalent because the one is capitalized and the other is not.
+
+# Exercise 7
+# The code returns 'ValueError: invalid literal for int() with base 10: '3.1415'. An int() can coerce an integer of string type but not of float() type.
+# Exercise 8
+# The expression evaluates to True as the string on the left's first character is 1 and the first character of the string on the right is 9.
+
+
+# Variables
+
+# Exercise 1 
+# idiomatic, non-idiomatic, idiomatic, non-idiomatic,non-idiomatic,idiomatic, non-idiomatic, non-idiomatic
+
+# Exercise 2 
+# idiomatic, non-idiomatic, idiomatic, non-idiomatic, illegal, idiomatic, non-idiomatic, non-idiomatic
+#
+# Exercise 3 
+# non-idiomatic, non-idiomatic, non-idiomatic, idiomatic, illegal, non-idiomatic, idiomatic, non-idiomatic
+# Exercise 4 
+#  non-idiomatic, non-idiomatic, idiomatic, illegal, non-idiomatic,non-idiomatic, non-idiomatic
+
+# Exercise 5 
+# print(f' Good Morning, {name}. \n Good Afternoon, {name}. \n \
+# Good Evening, {name}.')
+
+# Exercise 6 
+#
+# Exercise 7
+# It prints the literal string and then the string value assigned to the constant NAME
+
+# Exercise 8
+
+# Exercise 9
+
+# Exercise 10
+# reassign, mutate,reassign, neither, mutate, mutate, mutate,
+# mutate, mutate, mutate
