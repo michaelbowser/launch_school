@@ -87,3 +87,43 @@
 # Exercise 10
 # reassign, mutate,reassign, neither, mutate, mutate, mutate,
 # mutate, mutate, mutate
+#
+# Input/Output
+#
+# Exercise 1 
+#
+#
+# Functions and Methods
+#
+# 1 
+# A. Type: Str 
+# B.Mutability: Immutable 
+# C. Operations: function definition set_foo, variable assignment bar is set to foo, function set foo is called, print is called on function variable foo
+# D. Stack Trace: set_foo -> bar, bar cannot be printed, out of scope variable
+# E. Return Error
+# F. print Error
+# 2 
+# A. Type Str
+# B. Mutability: Immutable
+# C. Operations: foo is assigned to bar, function set_foo is defined, within set_foo function foo is assigned to qux, set foo is called, print is called on foo
+# D. Stack Trace: foo -> 'bar', disregarding call within set_foo, 
+# E. None
+# F. print bar
+# 3 In programs
+#
+# 4 
+# function name: multiply_numbers
+# function_arguments: 2, 3, 4 
+# function definition: def multiply_numbers
+# function body: result = num1 * num2 * num3
+# function invocation: product
+# function return value = result 
+# all identifiers = multiply_numbers,def, num1, num2, num3, result, return, product##,
+# 5 
+# A. Type str 
+# B. Mutability: Immutable
+# C. Operations (line by line): function scream is defined, function scream is called with str argument 'Yipeee'
+# D. Trace (run order): function object screams is created and stored in memory,function body is stored,function call 'Yipeee' is evaluated, argument is passed to the parameter
+# words + '!!!!' is run, output Yipeee
+
+
