@@ -124,6 +124,18 @@
 # B. Mutability: Immutable
 # C. Operations (line by line): function scream is defined, function scream is called with str argument 'Yipeee'
 # D. Trace (run order): function object screams is created and stored in memory,function body is stored,function call 'Yipeee' is evaluated, argument is passed to the parameter
-# words + '!!!!' is run, output Yipeee
-
+# words + '!!!!' is run,
+#
+# Flow Control
+#
+# 1. False, True, 3 (short circuted to the first operand because of the following or. The first operand expression evaluated to a 3 ), 3 ( same theory as the previous question but this time the and operator was used thus requiring both operands to determine the final value), False, True, False, False, False, False  
+# 2. see programs
+# 3. 'Product2', 'Product not found' ( )
+# 4. def baz():
+#    if foo:
+#        return('bar')
+#   else:
+#        return qux()
+# 5. Empty, since an empty list is a falsy value.
+# 6 see programs      
 
