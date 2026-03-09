@@ -138,4 +138,16 @@
 #        return qux()
 # 5. Empty, since an empty list is a falsy value.
 # 6 see programs      
-
+#
+# Intro to Collections
+#
+# 1. people = ['frank', 'ginger', 'mary', 'fred']
+# len(people)
+# 2. see programs
+# 3. Two difference between lists and tuples: A) Lists are mutable, Tuples are immutable. B) Lists literals use []; tuple literals use ().
+# 3. Two similarities between list and tuples. A) Lists and tuples are sequences. B) Lists and tuples are heterogeneous; elements do not have to be of the same type.
+# 4. Strings are ordered and thus can be indexed as lists can. Collections can be ordered or unordered; lists, which are a type of collection, are of the ordered variety ie they must be ordered. Because they are ordered, they can be indexed. 
+# 5. Set types are unordered while sequences are ordered. In addition, Sets require a comma after the last element in the set constructer to 
+# denote that it is a set. Sets also do not allow duplicate values
+# 6. see programs
+# 7. range(7): 1-7; range(1, 6): 1-5; range(3 , 15, 4): 3,7,11; range(3, 8, -1): []; range(8, 3, -1): 8-4
