@@ -150,4 +150,39 @@
 # 5. Set types are unordered while sequences are ordered. In addition, Sets require a comma after the last element in the set constructer to 
 # denote that it is a set. Sets also do not allow duplicate values
 # 6. see programs
-# 7. range(7): 1-7; range(1, 6): 1-5; range(3 , 15, 4): 3,7,11; range(3, 8, -1): []; range(8, 3, -1): 8-4
+# 7. range(7): 1-7; range(1, 6): 1-5; range(3 , 15, 4): 3,7,11; range(3, 8, -1): []; range(8, 3, -1): 8-
+# Using Collections
+# 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
