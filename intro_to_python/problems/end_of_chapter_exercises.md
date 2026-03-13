@@ -152,8 +152,8 @@
 # 6. see programs
 # 7. range(7): 1-7; range(1, 6): 1-5; range(3 , 15, 4): 3,7,11; range(3, 8, -1): []; range(8, 3, -1): 8-
 # Using Collections
-# 
-
+# 5. ['a', 'b']  lists are mutable; {'a': 1, 'b': 2} dict key can not be mutable; {1, 4, 9, 16, 25} sets are mutable  ### 
+# 6. False, False, False, False, True, True, False, False,False, False, False 
 
 
 
