@@ -35,7 +35,8 @@ Example:
 
 text.upper()      → new string
 numbers.append(4) → modifies list
-3. Identify the Operation
+
+3.  Identify the Operation
 
 
 What does this line of code do?
@@ -51,6 +52,7 @@ Examples:
 x = x + 1
 numbers.append(4)
 print(x)
+
 4. Trace the Value After Each Step ⭐
 
 After each line runs, ask:
@@ -92,6 +94,7 @@ Examples:
 
 return x + y → returns a value
 print(x)     → returns None
+
 6. Determine What Actually Prints
 
 Ask:
