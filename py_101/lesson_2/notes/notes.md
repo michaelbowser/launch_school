@@ -41,4 +41,21 @@ so get familiar with it. In particular, make sure that you understand that
 Python doesn't evaluate the right side of a short-circuit operator when the
 expression short-circuits.
 
+The following values evaluate as:<br>
+- False
+- None
+- 0
+- 0.0
+- 0j
+- "" (an empty string)
+- [] (an empty list)
+- {} (an empty dictionary)
+- () ( an empty tuple)
+- set() ( an empty set)
+- frozenset() (an empty frozenset)
+range(0) (an empty range)
+
+
+
+
 
