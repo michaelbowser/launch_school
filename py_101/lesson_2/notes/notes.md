@@ -55,7 +55,34 @@ The following values evaluate as:<br>
 - frozenset() (an empty frozenset)
 range(0) (an empty range)
 
+#### Pseudocode
+Pseudocode for a function that determines which number in a collection has the 
+greatest value.
+- Given a collection of numbers 
 
+  - Iterate through the collection one by one.
+    - save the first value as the starting value.
+    - for each iteration, compare the saved value with the current value.
+      - if the current number is greater 
+        - reassign the saved value as the current value 
+      - otherwise, if the current value smaller or equal
+        move to the next value in the collection
+  - After iterating through the collection, return the saved value
 
+Two layers to solving any problem:
+  - The logical problem domain layer.
+  - The syntactical programming language layer.
 
+Pseudocode Keywords
+
+|Keyword | Meaning |
+|-------|--------|
+| START | start of the program |
+| SET | set a variable that we can use for later |
+| GET | retrieve input from user |
+| PRINT | display output to user |
+| READ | retrieve a value from a variable |
+| IF / ELSE IF / ELSE | show conditional branches in logic |
+| WHILE | show looping logic |
+| END | end of the program 
 

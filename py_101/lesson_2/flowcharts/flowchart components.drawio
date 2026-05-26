@@ -1,0 +1,25 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.6.1 Chrome/142.0.7444.265 Electron/39.8.10 Safari/537.36" version="29.6.1">
+  <diagram name="Page-1" id="p-0YX5_BCL7KFxWoEozL">
+    <mxGraphModel dx="767" dy="533" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pV6GBPWU3pK0Oz6Ogcao-1" parent="1" style="ellipse;whiteSpace=wrap;html=1;strokeColor=default;" value="&lt;font size=&quot;3&quot;&gt;start/stop&lt;/font&gt;" vertex="1">
+          <mxGeometry height="80" width="120" x="260" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="pV6GBPWU3pK0Oz6Ogcao-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;font size=&quot;3&quot;&gt;Processing Step&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="120" x="260" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="pV6GBPWU3pK0Oz6Ogcao-3" parent="1" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="&lt;font size=&quot;3&quot;&gt;Input/Output&lt;/font&gt;" vertex="1">
+          <mxGeometry height="60" width="160" x="240" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="pV6GBPWU3pK0Oz6Ogcao-4" parent="1" style="rhombus;whiteSpace=wrap;html=1;" value="&lt;font size=&quot;3&quot;&gt;Decision&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="110" x="260" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="pV6GBPWU3pK0Oz6Ogcao-5" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;font size=&quot;3&quot;&gt;Connector&lt;/font&gt;" vertex="1">
+          <mxGeometry height="100" width="100" x="275" y="590" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
