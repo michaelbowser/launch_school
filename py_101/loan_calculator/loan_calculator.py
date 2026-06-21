@@ -26,7 +26,7 @@ loan_amount = int(loan_entry)
 prompt(f' Your loan amount is ${loan_amount}')
 
 prompt("Now, please enter your APR. You can enter as a decimal,such as 12.5")
-apr_entry = float(input())
+apr_entry = (float(input())
 
 while invalid_number(apr_entry):
     prompt("Hmm.. that doesn't look like a mumber. Please try again.")

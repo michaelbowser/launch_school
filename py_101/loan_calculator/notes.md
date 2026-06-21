@@ -41,5 +41,6 @@ monthly_payment = loan_amount * (monthly_interest_rate/(1- (1 + monthly_interest
 print Your monthly payment will be {monthly_payment}
 
  
+### Notes 
 
 
