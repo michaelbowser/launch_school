@@ -6,9 +6,9 @@ def invalid_number(number_str):
         int(number_str)
         float(number_str)
     except ValueError:
-            return True
+        return True
 
-    return False 
+    return False
 
 prompt("Welcome to The Loan Calculator!")
 
@@ -39,7 +39,7 @@ monthly_interest_rate = (apr/12)
 
 prompt(f' Your interest rate is {apr:.1%}')
 
-prompt(f' Finally, How many years will your loan be for?')
+prompt('Finally, How many years will your loan be for?')
 
 loan_duration_entry = input()
 
@@ -51,5 +51,5 @@ loan_duration = (int(loan_duration_entry)*12)
 
 monthly_payment = loan_amount * (monthly_interest_rate/(1 -(1 +
 monthly_interest_rate) ** (-loan_duration)))
-    
+
 prompt(f' Your payment will be ${monthly_payment:.3} per month.')
