@@ -1,7 +1,20 @@
-### 5.6.26
+### 5.6.26, 6.28.26 (2nd run)
+
+#### Style Guide
+
+ - Text editor uses characters, not tabs, for indentation. Also, spaces for 
+tabs.
+ - Limit lines to 72 characters
+ - Use `snake_case` for function and variable names. Start with a lower case 
+ letter.
+ - Class names use `PascalCase`.
+ - Uppercase names with underscores to represent constants. Ex: `UPPER_CASE`
+ - This is also known as `SCREAMING_SNAKE_CASE`
+
 
 #### Truthiness
-
+ - A boolean is a data type whose only purpose is to convey whether it is 
+ true or false.
 ``` 
 print(True)
 print(False)
@@ -18,18 +31,29 @@ print(make_longer("xyz", False)) #'xyz'
 def is_digit(char):
     if '0' <= char <= '9':
         return True
-    else:
+    els
         return False
 
 print(is_digit('5'))  # True
 print(is_digit('a')) # False
+
 ```
 
-True and False values should be implict, not necessarily explicitly written.
+In much the same way, a function doesn't usually return True or False
+explicitly. Instead, it returns the result of a conditional expression. 
+
+True and False values should be implicit, not necessarily explicitly written.
 
 #### Short Circuit
 Short-circuiting can be defined as an evaluation stops evaluating
 sub-expressions once it can determine the final value.
+ - The `and` operator evaluates as `True` only when both sub-expressions
+ evaluate as `True`.
+ - The `or` operator evaluates as `True` when one of the stow sub-expressions
+ evaluate as `True`; it evaluates as `False` when both sub-expressions 
+ evaluate as `False`.
+ - The **not** operator inverts the truth value of the condition it's applied
+ to.
 
 For example:
 ```
