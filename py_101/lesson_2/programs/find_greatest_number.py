@@ -1,0 +1,15 @@
+numbers = [5, 10, 1, 25, 2, 666, 17, 1, 3, 4]
+
+def find_greatest(numbers):
+    iterator = 0
+    saved_number = numbers[iterator]
+
+    while iterator < len(numbers):
+        current_number = numbers[iterator]
+        if current_number > saved_number:
+            saved_number = current_number
+
+        iterator += 1
+
+    return saved_number
+print(saved_number)

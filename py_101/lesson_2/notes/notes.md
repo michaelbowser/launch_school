@@ -79,6 +79,14 @@ The following values evaluate as:<br>
 - frozenset() (an empty frozenset)
 range(0) (an empty range)
 
+#### Python Virtual Environments
+
+Reasons for using virtual environments:
+ - Manage project-specific dependencies without affecting the global Python
+ environment.
+ - Avoid conflicts between different projects that require different library versions.
+ - 
+
 #### Pseudocode
 Pseudocode for a function that determines which number in a collection has the 
 greatest value.
@@ -98,7 +106,7 @@ Two layers to solving any problem:
   - The syntactical programming language layer.
 
 Pseudocode Keywords
-
+.
 |Keyword | Meaning |
 |-------|--------|
 | START | start of the program |
@@ -109,4 +117,23 @@ Pseudocode Keywords
 | IF / ELSE IF / ELSE | show conditional branches in logic |
 | WHILE | show looping logic |
 | END | end of the program 
+
+#### Example problem
+
+``` Start 
+# Given a collection of integers called "numbers"
+
+SET iterator = 1
+SET savedNumber = value within numbers collection at space 1 
+
+WHILE iterator <= length of numbers 
+    SET currentNumber = value within numbers collection at space "iterator"
+    If currentNumber > savedNumber
+        savedNumber = currentNumber
+
+    iterator = iterator + 1  
+    
+print savedNumber 
+```
+```Start
 
